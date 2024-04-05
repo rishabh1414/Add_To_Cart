@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.links {
+  display: flex;
+}
+
+.links > a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.cartBtn {
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.cartBtn > a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
